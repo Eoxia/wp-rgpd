@@ -1,6 +1,6 @@
-# Génération des pages la conformité RGPD
+# Génération des pages pour la conformité RGPD
 
-##Description du plugin
+##Description du plugin WP-RGPD
 Wp-RGPD vous permet de générer 4 pages necessaires pour suivre l'ogligation RGPD :
 *CGU
 *CGV
@@ -9,5 +9,5 @@ Wp-RGPD vous permet de générer 4 pages necessaires pour suivre l'ogligation RG
 
 ## Responsabilité
 Ce plugin est publié sous licence GPLv3 ou supérieur.
-Ce logiciel est livré sans aucune garantie
-Nous vous conseillons d'adpater les textes proposés avec l'aide d'un conseil compétent
+Ce logiciel est livré sans aucune garantie.
+Nous vous conseillons d'adapter les textes proposés avec l'aide d'un conseil compétent (Avocat, Juriste etc...)
