@@ -10,6 +10,8 @@
 [telephone]
 [contact_point]
 [administrative_area]
+[form_collect]
+[collected_data_goal]
 [date]
 [host]
 [host_adress]
