@@ -1,6 +1,6 @@
 *****************Schema Organisation ********* : http://schema.org/Organization
 [legalName]
-[status]
+[juridical_form]
 [address]
 [capital]
 [registration_number]
