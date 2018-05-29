@@ -1,13 +1,17 @@
-[company]
-[website_name]
+*****************Schema Organisation ********* : http://schema.org/Organization
+[legalName]
 [status]
-[adress]
+[address]
 [capital]
 [registration_number]
-[website]
+[taxID]
+[vatID]
+[url]
 [website_name]
 [email]
+[logo]
 [telephone]
+[faxNumber]
 [contact_point]
 [administrative_area]
 [form_collect]
@@ -28,3 +32,14 @@
 [instagram_website]
 [pinterest_website]
 [linkedin_website]
+
+*****************Schema Address********* : http://schema.org/PostalAddress
+[streetAddress] :
+[postOfficeBoxNumber]
+[postalCode]
+[addressRegion]
+[addressLocality]
+[addressCountry]
+
+*****************Schema Person********* http://schema.org/Person
+
