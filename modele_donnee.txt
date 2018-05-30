@@ -1,22 +1,12 @@
-*****************Schema Organisation ********* : http://schema.org/Organization
-[legalName]
-[juridical_form]
-[address]
-[capital]
-[registration_number]
-[taxID]
-[vatID]
-[url]
-[website_name]
-[email]
-[logo]
-[telephone]
-[faxNumber]
-[contact_point]
-[administrative_area]
-[form_collect]
-[collected_data_goal]
-[date]
+Les sources utilisées :
+http://schema.org/Organization
+http://schema.org/Corporation
+http://schema.org/PostalAddress
+http://schema.org/Person
+https://wiki.dolibarr.org/index.php/Category:Table_SQL
+
+Todo :
+[tribunal_competent] :
 [host]
 [host_adress]
 [host_telephone]
@@ -33,13 +23,43 @@
 [pinterest_website]
 [linkedin_website]
 
-*****************Schema Address********* : http://schema.org/PostalAddress
-[streetAddress] :
-[postOfficeBoxNumber]
-[postalCode]
-[addressRegion]
-[addressLocality]
-[addressCountry]
+*****************Schema Organisation ********* : 
+[legalName] http://schema.org/Organization
+[address] http://schema.org/Organization
+[taxID] http://schema.org/Organization
+[vatID] http://schema.org/Organization
+[url] http://schema.org/Organization
+[email] http://schema.org/Organization
+[logo] http://schema.org/Organization
+[telephone] http://schema.org/Organization
+[faxNumber] http://schema.org/Organization
+[contact_point] http://schema.org/Organization
+[foundingDate] http://schema.org/Organization
+[juridical_form] Dolibarr
+[capital] Dolibarr : capital of society
+[status] Dolibarr
+[siret] Dolibarr
+[siren] Dolibarr
+[ape] Dolibarr : NAF-APE
+[Idprof4] Dolibarr : RCS/RM
 
-*****************Schema Person********* http://schema.org/Person
+*****************Schema Address*********
+[streetAddress] http://schema.org/PostalAddress
+[postOfficeBoxNumber] http://schema.org/PostalAddress
+[postalCode] http://schema.org/PostalAddress
+[addressRegion] http://schema.org/PostalAddress
+[addressLocality] http://schema.org/PostalAddress
+[addressCountry] http://schema.org/PostalAddress
+
+*****************Schema Person*********
+Déjà dans WordPress
+[familyName] http://schema.org/Person
+[givenName] http://schema.org/Person
+[email] http://schema.org/Person
+
+[worksFor] http://schema.org/Person
+[jobTitle] http://schema.org/Person
+[telephone] http://schema.org/Person
+[gender] http://schema.org/Person
+[address] http://schema.org/Person
 
