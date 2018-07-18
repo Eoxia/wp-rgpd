@@ -5,7 +5,18 @@ http://schema.org/PostalAddress
 http://schema.org/Person
 https://wiki.dolibarr.org/index.php/Category:Table_SQL
 
-Todo :
+Données communes aux 4 formulaires : CGU,CGV,Politique confidentialité,Mentions légales
+
+**Données CGV
+
+
+**Données CGU
+
+
+**Données Politique confidentialité
+
+
+**Données Mentions légales
 [tribunal_competent] :
 [host]
 [host_adress]
