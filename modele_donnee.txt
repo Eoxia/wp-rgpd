@@ -13,8 +13,15 @@ https://wiki.dolibarr.org/index.php/Category:Table_SQL
 
 
 **Données CGU
-
-
+[status] Dolibarr
+[capital] Dolibarr : capital of society
+[legalName] http://schema.org/Organization
+[address] http://schema.org/Organization
+[url] http://schema.org/Organization
+[contact_point] http://schema.org/Organization
+[areaserved] https://schema.org/Organization
+[releaseDate ] https://schema.org/Date
+[siret] INSEE
 **Données Politique confidentialité
 
 
