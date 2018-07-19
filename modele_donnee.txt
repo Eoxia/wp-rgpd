@@ -5,7 +5,9 @@ http://schema.org/PostalAddress
 http://schema.org/Person
 https://wiki.dolibarr.org/index.php/Category:Table_SQL
 
-Données communes aux 4 formulaires : CGU,CGV,Politique confidentialité,Mentions légales
+**Données communes aux 4 formulaires : CGU,CGV,Politique confidentialité,Mentions légales
+[tribunal_competent]
+[url] http://schema.org/Organization
 
 **Données CGV
 
@@ -17,7 +19,6 @@ Données communes aux 4 formulaires : CGU,CGV,Politique confidentialité,Mention
 
 
 **Données Mentions légales
-[tribunal_competent] :
 [host]
 [host_adress]
 [host_telephone]
@@ -39,7 +40,6 @@ Données communes aux 4 formulaires : CGU,CGV,Politique confidentialité,Mention
 [address] http://schema.org/Organization
 [taxID] http://schema.org/Organization
 [vatID] http://schema.org/Organization
-[url] http://schema.org/Organization
 [email] http://schema.org/Organization
 [logo] http://schema.org/Organization
 [telephone] http://schema.org/Organization
