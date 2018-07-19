@@ -10,6 +10,13 @@ https://wiki.dolibarr.org/index.php/Category:Table_SQL
 [url] http://schema.org/Organization
 
 **Données CGV
+[status] Dolibarr
+[legalName] http://schema.org/Organization
+[capital] Dolibarr : capital of society
+[address] http://schema.org/Organization
+[url] http://schema.org/Organization
+[contact_point] http://schema.org/Organization
+[releaseDate] https://schema.org/Date
 
 
 **Données CGU
@@ -21,7 +28,7 @@ https://wiki.dolibarr.org/index.php/Category:Table_SQL
 [contact_point] http://schema.org/Organization
 [areaserved] https://schema.org/Organization
 [tribunal_competent]
-[releaseDate ] https://schema.org/Date
+[releaseDate] https://schema.org/Date
 [siret] INSEE
 **Données Politique confidentialité
 
