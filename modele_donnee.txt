@@ -6,62 +6,48 @@ http://schema.org/Person
 https://wiki.dolibarr.org/index.php/Category:Table_SQL
 
 **Données communes aux 4 formulaires : CGU,CGV,Politique confidentialité,Mentions légales
-[url] http://schema.org/Organization
 [status] Dolibarr
-[address] http://schema.org/Organization
 [legalName] http://schema.org/Organization
+[address] http://schema.org/Organization
+[streetAddress] http://schema.org/PostalAddress
+[postOfficeBoxNumber] http://schema.org/PostalAddress
+[postalCode] http://schema.org/PostalAddress
+[addressRegion] http://schema.org/PostalAddress
+[addressLocality] http://schema.org/PostalAddress
+[addressCountry] http://schema.org/PostalAddress
 [contact_point] http://schema.org/Organization
 [telephone] http://schema.org/Person
+[url] http://schema.org/Organization
 
 **Données CGV
-[status] Dolibarr
-[legalName] http://schema.org/Organization
 [capital] Dolibarr : capital of society
-[address] http://schema.org/Organization
-[url] http://schema.org/Organization
-[contact_point] http://schema.org/Organization
+[siret] Dolibarr
+[siren] Dolibarr
+[ape] Dolibarr : NAF-APE
+[Idprof4] Dolibarr : RCS/RM
 [releaseDate] https://schema.org/Date
-[telephone] http://schema.org/Person
 
 **Données CGU
-[status] Dolibarr
 [capital] Dolibarr : capital of society
-[legalName] http://schema.org/Organization
-[address] http://schema.org/Organization
-[url] http://schema.org/Organization
-[contact_point] http://schema.org/Organization
 [areaserved] https://schema.org/Organization
 [tribunal_competent]
 [releaseDate] https://schema.org/Date
 [siret] INSEE
-[telephone] http://schema.org/Person
 
 **Données Politique confidentialité
-[url] http://schema.org/Organization
 [collected_data]
 [form_collect]
 [collected_data_goal]
-[address] http://schema.org/Organization
-[contact_point]
-[telephone] http://schema.org/Person
-[status] Dolibarr
-[legalName] http://schema.org/Organization
 
 **Données Mentions légales
-[url] http://schema.org/Organization
 [host]
 [host_address]
-[address] 
 [host_telephone]
-[telephone] http://schema.org/Person
 [publisher]
-[legalName]
-[status] Dolibarr
 [publisher_status]
 [publisher_adress]
 [publisher_telephone]
 [publisher_email]
-[contact_point] http://schema.org/Organization
 [publisher_website]
 [facebook_website]
 [twitter_website]
@@ -71,41 +57,10 @@ https://wiki.dolibarr.org/index.php/Category:Table_SQL
 [linkedin_website]
 
 *****************Schema Organisation ********* : 
-[legalName] http://schema.org/Organization
-[address] http://schema.org/Organization
 [taxID] http://schema.org/Organization
 [vatID] http://schema.org/Organization
 [email] http://schema.org/Organization
-[logo] http://schema.org/Organization
-[telephone] http://schema.org/Organization
-[faxNumber] http://schema.org/Organization
-[contact_point] http://schema.org/Organization
 [foundingDate] http://schema.org/Organization
 [juridical_form] Dolibarr
-[capital] Dolibarr : capital of society
-[status] Dolibarr
-[siret] Dolibarr
-[siren] Dolibarr
-[ape] Dolibarr : NAF-APE
-[Idprof4] Dolibarr : RCS/RM
 
-*****************Schema Address*********
-[streetAddress] http://schema.org/PostalAddress
-[postOfficeBoxNumber] http://schema.org/PostalAddress
-[postalCode] http://schema.org/PostalAddress
-[addressRegion] http://schema.org/PostalAddress
-[addressLocality] http://schema.org/PostalAddress
-[addressCountry] http://schema.org/PostalAddress
-
-*****************Schema Person*********
-Déjà dans WordPress
-[familyName] http://schema.org/Person
-[givenName] http://schema.org/Person
-[email] http://schema.org/Person
-
-[worksFor] http://schema.org/Person
-[jobTitle] http://schema.org/Person
-[telephone] http://schema.org/Person
-[gender] http://schema.org/Person
-[address] http://schema.org/Person
 
