@@ -44,6 +44,7 @@ https://wiki.dolibarr.org/index.php/Category:Table_SQL
 [host_adress]
 [host_telephone]
 [publisher]
+[legalName]
 [status] Dolibarr
 [publisher_status]
 [publisher_adress]
