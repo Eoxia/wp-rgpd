@@ -8,6 +8,8 @@ https://wiki.dolibarr.org/index.php/Category:Table_SQL
 **Données communes aux 4 formulaires : CGU,CGV,Politique confidentialité,Mentions légales
 [url] http://schema.org/Organization
 [status] Dolibarr
+[address] http://schema.org/Organization
+[legalName] http://schema.org/Organization
 
 **Données CGV
 [status] Dolibarr
@@ -36,12 +38,15 @@ https://wiki.dolibarr.org/index.php/Category:Table_SQL
 [form_collect]
 [collected_data_goal]
 [address] http://schema.org/Organization
+[contact_point]
 [telephone] http://schema.org/Person
 [status] Dolibarr
+[legalName] http://schema.org/Organization
 
 **Données Mentions légales
 [host]
-[host_adress]
+[host_address]
+[address] 
 [host_telephone]
 [publisher]
 [legalName]
@@ -50,6 +55,7 @@ https://wiki.dolibarr.org/index.php/Category:Table_SQL
 [publisher_adress]
 [publisher_telephone]
 [publisher_email]
+[contact_point] http://schema.org/Organization
 [publisher_website]
 [facebook_website]
 [twitter_website]
